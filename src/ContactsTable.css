@@ -1,0 +1,13 @@
+.header-cell {
+  display: flex;
+  min-width: 30%;
+}
+
+.header-icon {
+  color: #242d7c;
+}
+
+.padding {
+  padding-right: 1vw;
+  visibility: hidden;
+}
