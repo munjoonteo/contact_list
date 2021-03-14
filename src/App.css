@@ -42,6 +42,30 @@
   font-weight: 600;
 }
 
+.sort-container {
+  display: flex;
+  padding-bottom: 2vh;
+}
+
+.sort-text {
+  padding-right: 1vw;
+  color: #989898;
+}
+
 table td {
   border-bottom: 1px solid #b3b3b3;
+}
+
+@media only screen and (max-width: 1200px) {
+  .App {
+    margin: 12vw;
+  }
+
+  .contacts {
+    height: 65vh;
+  }
+
+  .subheading {
+    padding-bottom: 2vh;
+  }
 }

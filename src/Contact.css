@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 3vh;
+}
+
+.contact_name {
+  font-size: 2vh;
+  font-weight: 600;
+}
+
+.contact-info {
+  font-size: 1.8vh;
+  color: #111111;
+}
+
+.label {
+  font-size: 1.5vh;
+  color: #505050;
+}
+
+button {
+  background-color: #faffff;
+  border: none;
+  outline: none;
+  font-size: 2vh;
+}
