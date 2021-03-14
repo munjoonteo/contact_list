@@ -4,7 +4,7 @@ const headerData = [
     accessor: "name",
     Cell: props => (
       <span>
-        <div className="contact_name">{props.row.original.name}</div>
+        <div className="contact-name">{props.row.original.name}</div>
         <div className="cell-content cell">@{props.row.original.username}</div>
       </span>
     ),

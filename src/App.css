@@ -16,7 +16,7 @@
   padding-bottom: 2vh;
 }
 
-.table {
+.contacts {
   height: 75vh;
   overflow-y: scroll;
 }
@@ -37,7 +37,8 @@
   padding-right: 6vw;
 }
 
-.contact_name {
+.contact-name {
+  font-size: 2vh;
   font-weight: 600;
 }
 
