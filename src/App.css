@@ -16,6 +16,11 @@
   padding-bottom: 2vh;
 }
 
+.table {
+  height: 75vh;
+  overflow-y: scroll;
+}
+
 .table-header {
   text-align: left;
   color: #242d7c;

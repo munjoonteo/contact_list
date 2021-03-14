@@ -23,7 +23,9 @@ function App() {
     <div className="App">
       <div className="heading">Contacts</div>
       <div className="subheading">Say hi!</div>
-      <ContactsTable columns={columns} data={contacts} />
+      <div className="table">
+        <ContactsTable columns={columns} data={contacts} />
+      </div>
     </div>
   );
 }
